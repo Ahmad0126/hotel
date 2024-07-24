@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <title>Log In</title>
+</head>
+<body>
+    <div class="content pb-2 pt-3">
+        <div class="card forum position-absolute top-50 start-50 translate-middle w-50">
+            <div class="card-body">
+                <h1 class="card-title text-center">Buat Baru</h1>
+                <br>
+                <form action="login.php" method="post">
+                    <input type="text" name="nama" class="form-control" placeholder="Nama Kamar">
+                    <br>
+                    <textarea name="fasilitas" rows="5" class="form-control" placeholder="Fasilitas"></textarea>
+                    <br>
+                    <input type="number" name="harga" class="form-control" placeholder="Harga">
+                    <br>
+                    <input type="submit" name="send" value="Simpan" class="form-control btn btn-success">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+</html>

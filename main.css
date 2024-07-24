@@ -1,0 +1,18 @@
+.content{
+	height: 100vh;
+	background-image: linear-gradient(0deg, #dbafc0, #7becf2);
+}
+.forum{
+	padding: 0px 10px;
+	width: 300px;
+}
+.fix1{
+    padding-top: 10px;
+}
+.fixing{
+    text-decoration: none;
+    color: #0d6efd;
+}
+.man{
+	background-color: rgb(39, 39, 39);
+}
